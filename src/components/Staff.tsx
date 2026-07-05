@@ -1,10 +1,9 @@
 import { motion } from 'motion/react';
 import { Award, Heart } from 'lucide-react';
 import { STAFF_INFO } from '../data/salonData';
+import therapistImage from '../assets/images/therapist_portrait_1783241945670.jpg';
 
 export default function Staff() {
-  const therapistImage = '/src/assets/images/therapist_portrait_1783241945670.jpg';
-
   return (
     <section id="staff" className="py-24 bg-stone-50 border-b border-stone-200/40">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

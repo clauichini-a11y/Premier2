@@ -1,15 +1,13 @@
 import { motion } from 'motion/react';
 import { Calendar } from 'lucide-react';
 import { SALON_NAME } from '../data/salonData';
+import heroImage from '../assets/images/hero_meguri_1783241908198.jpg';
 
 interface HeroProps {
   onOpenReservation: () => void;
 }
 
 export default function Hero({ onOpenReservation }: HeroProps) {
-  // Use the exact generated image path
-  const heroImage = '/src/assets/images/hero_meguri_1783241908198.jpg';
-
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center bg-stone-900 overflow-hidden">
       {/* Background Image with elegant overlay */}

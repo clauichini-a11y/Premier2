@@ -1,10 +1,9 @@
 import { motion } from 'motion/react';
 import { Sparkles, Compass } from 'lucide-react';
+import roomImage from '../assets/images/salon_room_1783241920958.jpg';
+import oilImage from '../assets/images/organic_oil_1783241935131.jpg';
 
 export default function Gallery() {
-  const roomImage = '/src/assets/images/salon_room_1783241920958.jpg';
-  const oilImage = '/src/assets/images/organic_oil_1783241935131.jpg';
-
   return (
     <section id="gallery" className="py-24 bg-stone-100/40 border-b border-stone-200/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
