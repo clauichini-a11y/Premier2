@@ -1,0 +1,6 @@
+{
+  "name": "プライベートエステサロン 巡 (Meguri)",
+  "description": "冷え・むくみ・更年期のゆらぎに。内側から整える完全個室のオーガニックプライベートサロン「巡 (Meguri)」のオフィシャルサイト。WEB予約・お問合せ・管理者ダッシュボードを内包。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
